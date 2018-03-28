@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+	<header>
+
+	<form  method="post" " action="mailto:bo.nino@hotmail.com">
+	
+	<fieldset id="Ficha"><legend>Ficha de cadastro</legend>
+		<p><label for="cnome">Nome:</label>
+		<input type="text" name="tnome"  placeholder="Nome"></p>
+
+		<p><label for="cSobrenome"> Sobrenome:</label> 
+		<input type="text" name="tSobrenome" size="15" maxlength="50"  placeholder="Sobrenome"></p>
+	</fieldset>
+
+	<fieldset id="Identificaçao"><legend>Identificaçao do usuario</legend>
+		<p> <label for="cidentidade"> Numero da identidade:</label>
+		<input type="number" name="tnumero"  placeholder="nº Identidade"></p>
+
+		<p> <label for="ccpf">CPF:</label>
+		<input type="number" name="tnumero" placeholder="CPF"></p>
+
+		<p><label for="cnasc">Data de nascimento:</label>
+		<input type="date" name="tnasc"></p>
+
+		<p><label for=cescol>Escolaridade:</label>
+		<input type="text" name="tescol" placeholder="Grau de ensino"></p>
+	</fieldset>	
+
+	<fieldset id="Sexo"><legend>Sexo</legend>
+		<p><input type="radio" name="tsexo"> <label for="cmas">Masculino</label><br/></p>
+		<p><input type="radio" name="tsexo"> <label for="cfem">Feminino</label></p>
+	</fieldset>
+
+	<fieldset id="Relacionamento"><legend>Estado civil</legend>
+		<p><input type="radio" name="testado"><label for="csolt"> Solteiro</label><br/></p>
+		<p><input type="radio" name="testado"><label for="ccasa"> Casado</label><br/></p>
+		<p><input type="radio" name="testado"><label for="cnamo">Namorando</label></p>
+	</fieldset>
+	
+	<fieldset id="Contato"><legend>Contato</legend>
+		<p><label for="ctel"> Celular:</label>
+		<input type="number" name="ttel"  placeholder="Telefone"></p>
+
+		<p><label for="cmail"> E-mail:</label> 
+		<input type="email" name="tmail" placeholder="E-mail"></p>
+	</fieldset>
+
+	<fieldset id="Endereço"><legend>Endereço do usuário</legend>
+		<p><label for="crua"> Logradouro: </label>
+		<input type="text" name="trua" size="20" maxlength="80" placeholder="rua,avenida,"></p>
+		
+		<p><label for="cnum"> Numero: </label>
+		<input type="number" name="tnum" min="0" max="9999"></p>
+
+		<p><label for="cEst"> Estado:</label> 
+		<select name="tEst" >
+			<option value="RJ"> Rio de Janeiro</option>
+			<option value="SP"> São Paulo</option>
+			<option value="MG"> Minas Gerais</option>
+		</select></p>
+
+		<P><label for="cCidade">Cidade:</label>
+		<input type="text" name="tCidade" maxlength="40" size="20" placeholder="Cidade"></P>
+	</fieldset>
+
+	<fieldset id="Mensagem"><legend id="cMsg">Mensagem do usuário</legend>
+		<p><label for="cMsg">Mensagem:</label>
+		<textarea name="tmsg" cols="45" rows="5" placeholder="Deixe aqui sua mensagem"></textarea></p>
+	</fieldset>
+
+	
+	<input type="image" name="tEnviar" id="image" src="C:\Users\Lemuel\Desktop\_imagens\btenviar.png">
+
+    </form>
+	</header>
+
+</body>
+</html>

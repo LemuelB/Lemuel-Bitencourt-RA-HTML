@@ -1,0 +1,69 @@
+
+body {
+	background-color:#b6d8e3;
+}
+
+form{
+	width: 500pt;
+	margin: auto;
+
+}
+
+input, textarea{
+	font-family:sans-serif;
+	font-size: 13pt;
+	background-color: rgba(255,255,255,.8);
+}
+input#image{
+	background-color: #b6d8e3;
+}
+
+legend{
+	color:#888888;
+	font-weight:bold;
+	font-size: 15pt;
+	font-family: sans-serif;
+	text-shadow-color: 2px 2px 2px 
+
+}
+
+legend#cMsg{
+	color: ##808080;
+}
+
+fieldset{
+	border-color:;
+	border-radius: 25px;
+	border: 3px solid #306eb0;
+}
+
+p{
+	text-align: left;
+	font-family: verdana;
+}
+
+fieldset#Ficha{
+	background:url(https://alagoasonline.com/criativo/wp-content/uploads/2014/07/contato4.png);
+}
+
+fieldset#Identificaçao{
+	background:url(http://www.vereadorpaulocamara.com.br/wp-content/uploads/2013/07/cart%C3%A3o-da-identifica%C3%A7%C3%A3o-tag-conhecido-do-vetor-12852029.jpg) no-repeat 90% 100%;
+}
+
+fieldset#Sexo{
+	background:url(http://pt.weequizz.com/imgquizz/icon/ybwdx.png)no-repeat 50% 50%;
+}
+
+fieldset#Contato{
+	background: url(https://yata.ostr.locaweb.com.br/e8d19e176cd0555127a4c0acad26b9c2c8f49f92ba32da2d4a7d02a08e7ace6f)no-repeat;	
+}
+
+fieldset#Endereço{
+	background:url(http://www.primecoworking.com.br/wp-content/uploads/2017/03/endere%C3%A7o-fiscal-270x300.png)no-repeat 50% 50%;
+}
+
+fieldset#Mensagem{
+
+	background: url(https://pureinfotech.com/wp-content/uploads/2012/11/imap-mail-win8.png) no-repeat 50%;
+}
+
