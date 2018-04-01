@@ -9,98 +9,99 @@
 <body>
 
 
-<div id="container">
-	<form  method="post" action="mailto:bo.nino@hotmail.com">
+	<div id="container">
+		<form  method="post" action="mailto:bo.nino@hotmail.com">
+
+
+			<fieldset id="Ficha"><legend>Ficha de cadastro</legend>
+
+				<div class="inputt">
+					<p><label for="cnome">Nome:</label>
+						<input type="text" class="ip" name="tnome" size="15"  placeholder="Nome"></p>
+
+					<p><label for="cSobrenome"> Sobrenome:</label> 
+						<input class="ip" type="text" name="tSobrenome" size="10" maxlength="50"  placeholder="Sobrenome"></p>
+				</div>		
+			</fieldset>
+
+
+
+			<fieldset id="Identificaçao"><legend>Identificação do usuario</legend>
+
+				<div class="inputt">
+					<p><label for="cidentidade">Numero da identidade:</label>
+						<input type="number" class="ip" name="tnumero" id="cidentidade" size="5" placeholder="nº Identidade"></p>
+
+					<p> <label for="ccpf">CPF:</label>
+						<input type="number" class="ip" name="tnumero" id="ccpf" size="10" placeholder="CPF"></p>
+
+					<p><label for="cnasc">Data de nascimento:</label>
+						<input type="date" class="ip" id="cnasc" name="tnasc"></p>
+
+					<p><label for=cescol>Escolaridade:</label>
+						<input type="text" class="ip" name="tescol" id="cescol" placeholder="Grau de ensino"></p>
+				</div>
+			</fieldset>
+
+
+			<fieldset id="Sexo"><legend>Sexo</legend>
+				<div class="inputt">
+					<p><input type="radio" name="tsexo"> <label for="cmas">Masculino</label><br/></p>
+					<p><input type="radio" name="tsexo"> <label for="cfem">Feminino</label></p>
+				</div>
+			</fieldset>
+
+
+				<div class="relaci">
+			<fieldset id="Relacionamento"><legend>Estado civil</legend>
+
+				<div class="inputt">
+					<p><input type="radio"  name="testado" ><label for="csolt"> Solteiro</label><br/></p>
+					<p><input type="radio" name="testado" ><label for="ccasa"> Casado</label><br/></p>
+					<p><input type="radio"  name="testado" ><label for="cnamo">Namorando</label></p>
+				</div>
+			</fieldset>
+			
+
+			<fieldset id="Contato"><legend>Contato</legend>
+				<div class="inputt">
+					<p><label for="ctel">Celular</label>
+						<input type="number" class="ip" name="ttel"   placeholder="Telefone"></p>
+				</div>
+
+				<div class="inputt">
+					<p><label for="cmail"> E-mail:</label>
+						<input type="email" class="ip" name="tmail" placeholder="E-mail"></p>
+				</div>
+			</fieldset>
+
+			<fieldset id="Endereço"><legend>Endereço do usuário</legend>
+					<p><label for="crua"> Logradouro: </label>
+						<input type="text" name="trua" class="ip" id="cname" placeholder="rua,avenida,"></p>
 	
-	<fieldset id="Ficha"><legend>Ficha de cadastro</legend>
-<div class="inputt">
-		<p><label for="cnome">Nome:</label>
-		<input type="text" class="ip" name="tnome" size="15"  placeholder="Nome"></p>
-		<p><label for="cSobrenome"> Sobrenome:</label> 
-		<input class="ip" type="text" name="tSobrenome" size="10" maxlength="50"  placeholder="Sobrenome"></p>
-</div>		
-	</fieldset>
+					<p><label for="cnum"> Numero:</label>
+						<input type="number" class="ip" name="tnum" id="cnum" min="0" max="9999"></p>
+
+					<p><label for="cEst"> Estado:</label> 
+						<select name="tEst" id="cEst" class="ip" >
+							<option value="RJ"> Rio de Janeiro</option>
+							<option value="SP"> São Paulo</option>
+							<option value="MG"> Minas Gerais</option>
+						</select></p>
+
+					<P><label for="cCidade">Cidade:</label>
+						<input type="text" class="ip" name="tCidade" id="cCidade" maxlength="40" size="7" placeholder="Cidade"></P>
+			</fieldset>
 
 
+			<fieldset> id="Mensagem"><legend>Mensagem do usuário</legend>
+					<p><label for="cMsg">Mensagem:</label>
+						<textarea name="tmsg" cols="45" rows="5" id="cMsg" placeholder="Deixe aqui sua mensagem"></textarea></p>
+			</fieldset>
 
-	<fieldset id="Identificaçao"><legend>Identificação do usuario</legend>
-<div class="inputt">
-		<p><label for="cidentidade">Numero da identidade:</label>
-		<input type="number" class="ip" name="tnumero" id="cidentidade" size="5" placeholder="nº Identidade"></p>
+			<input type="image" name="tEnviar" id="image" src="C:\Users\Lemuel\Desktop\_imagens\btenviar.png">
 
-		<p> <label for="ccpf">CPF:</label>
-		<input type="number" class="ip" name="tnumero" id="ccpf" size="10" placeholder="CPF"></p>
-
-		<p><label for="cnasc">Data de nascimento:</label>
-		<input type="date" class="ip" id="cnasc" name="tnasc"></p>
-
-		<p><label for=cescol>Escolaridade:</label>
-		<input type="text" class="ip" name="tescol" id="cescol" placeholder="Grau de ensino"></p>
-<div class="inputt">
-	</fieldset>
-
-
-	<fieldset id="Sexo"><legend>Sexo</legend>
-<div class="inputt">
-		<p><input type="radio" name="tsexo"> <label for="cmas">Masculino</label><br/></p>
-		<p><input type="radio" name="tsexo"> <label for="cfem">Feminino</label></p>
-</div>
-	</fieldset>
-
-
-<div class="relaci">
-	<fieldset id="Relacionamento"><legend>Estado civil</legend>
-<div class="inputt">
-		<p><input type="radio"  name="testado" ><label for="csolt"> Solteiro</label><br/></p>
-		<p><input type="radio" name="testado" ><label for="ccasa"> Casado</label><br/></p>
-		<p><input type="radio"  name="testado" ><label for="cnamo">Namorando</label></p>
-</div>
-	</fieldset>
-</div>
-
-
-	<fieldset id="Contato"><legend>Contato</legend>
-<div class="inputt">
-	<p><label for="ctel">Celular</label>
-		<input type="number" class="ip" name="ttel"   placeholder="Telefone"></p>
-</div>
-
-<div class="inputt">
-		<p><label for="cmail"> E-mail:</label>
-		<input type="email" class="ip" name="tmail" placeholder="E-mail"></p>
-</div>
-</fieldset>
-
-	<fieldset id="Endereço"><legend>Endereço do usuário</legend>
-		<p><label for="crua"> Logradouro: </label>
-		<input type="text" name="trua" class="ip" id="cname" placeholder="rua,avenida,"></p>
-	
-		<p><label for="cnum"> Numero:</label>
-		<input type="number" class="ip" name="tnum" id="cnum" min="0" max="9999"></p>
-
-		<p><label for="cEst"> Estado:</label> 
-		<select name="tEst" id="cEst" class="ip" >
-			<option value="RJ"> Rio de Janeiro</option>
-			<option value="SP"> São Paulo</option>
-			<option value="MG"> Minas Gerais</option>
-		</select></p>
-
-		<P><label for="cCidade">Cidade:</label>
-		<input type="text" class="ip" name="tCidade" id="cCidade" maxlength="40" size="7" placeholder="Cidade"></P>
-	</fieldset>
-
-
-	<fieldset id="Mensagem"><legend>Mensagem do usuário</legend>
-		<p><label for="cMsg">Mensagem:</label>
-		<textarea name="tmsg" cols="45" rows="5" id="cMsg" placeholder="Deixe aqui sua mensagem"></textarea></p>
-	</fieldset>
-
-
-
-	
-	<input type="image" name="tEnviar" id="image" src="C:\Users\Lemuel\Desktop\_imagens\btenviar.png">
-
-</form>
-</div>
+		</form>
+	</div>
 </body>
 </html>
