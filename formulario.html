@@ -4,29 +4,66 @@
 	<title>formulario</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
-<body>
+<body class="formulario">
 
+	<div class="container">
+	<header>
+		<h1>Formulário</h1>
+	</header>
 
-	<div id="container">
+		<nav class="navbar  navbar-expand-lg navbar-dark bg-primary">
+
+			<a class="navbar-brand" href="#">Atividades</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarsite">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+	
+  			<div class="collapse navbar-collapse" id="navbarsite">
+    			<ul class="navbar-nav" mr-auto>
+     				<li class="nav-item">
+        				<a class="nav-link" href="formulario.html" target="_blank">Formulário</a>
+      				</li>
+
+      				<li class="nav-item">
+       					<a class="nav-link" href="arvore_dom.html" target="_blank">Árvore Dom</a>
+      				</li>
+
+      				<li class="nav-item">
+      					<a class="nav-link" href="respostas.html" target="_blank">Respostas</a>
+      				</li>
+    			</ul>
+			</div>
+ 		</nav>
+ 	</div>
+
+ 	
+ 	<main>
 		<form  method="post" action="mailto:bo.nino@hotmail.com">
 
 
-			<fieldset id="Ficha"><legend>Ficha de cadastro</legend>
+			<fieldset id="Ficha">
+				<div class="fieldset1">
+				<legend>Ficha de cadastro</legend>
 				<div class="inputt">
 					<p><label for="cnome">Nome:</label>
 						<input type="text" class="ip" name="tnome" id="cnome" size="15"  placeholder="Nome"></p>
 
 					<p><label for="cSobrenome"> Sobrenome:</label> 
 						<input class="ip" type="text" name="tSobrenome" id="cSobrenome" size="10" maxlength="50"  placeholder="Sobrenome"></p>
+				</div>
 				</div>		
 			</fieldset>
 
 
 
-			<fieldset id="Identificaçao"><legend>Identificação do usuario</legend>
-
+			<fieldset id="Identificaçao">
+				<div class="fieldset1">
+				<legend>Identificação do usuario</legend>
 				<div class="inputt">
 					<p><label for="cidentidade">Numero da identidade:</label>
 						<input type="number" class="ip" name="tnumero" id="cidentidade" size="5" placeholder="nº Identidade"></p>
@@ -43,7 +80,9 @@
 			</fieldset>
 
 
-			<fieldset id="Sexo"><legend>Sexo</legend>
+			<fieldset id="Sexo">
+				<div class="fieldset1">
+				<legend>Sexo</legend>
 				<div class="inputt">
 					<p><input type="radio" name="tsexo" id="cmas"> <label for="cmas">Masculino</label><br/></p>
 					<p><input type="radio" name="tsexo" id="cfem"> <label for="cfem">Feminino</label></p>
@@ -52,17 +91,22 @@
 
 
 				<div class="relaci">
-			<fieldset id="Relacionamento"><legend>Estado civil</legend>
+			<fieldset id="Relacionamento">
+				<div class="fieldset1">
+				<legend>Estado civil</legend>
 
 				<div class="inputt">
 					<p><input type="radio"  name="testado" id="csolt" ><label for="csolt"> Solteiro</label><br/></p>
 					<p><input type="radio" name="testado" id="ccasa" ><label for="ccasa"> Casado</label><br/></p>
 					<p><input type="radio"  name="testado" id="cnamo" ><label for="cnamo">Namorando</label></p>
 				</div>
+				</div>
 			</fieldset>
 			
 
-			<fieldset id="Contato"><legend>Contato</legend>
+			<fieldset id="Contato">
+				<div class="fieldset1">
+				<legend>Contato</legend>
 				<div class="inputt">
 					<p><label for="ctel">Celular</label>
 						<input type="number" class="ip" name="ttel" id="ctel" placeholder="Telefone"></p>
@@ -72,9 +116,12 @@
 					<p><label for="cmail"> E-mail:</label>
 						<input type="email" class="ip" name="tmail" id="cmail" placeholder="E-mail"></p>
 				</div>
+				</div>
 			</fieldset>
 
-			<fieldset id="Endereço"><legend>Endereço do usuário</legend>
+			<fieldset id="Endereço">
+				<div class="fieldset1">
+				<legend>Endereço do usuário</legend>
 					<p><label for="clog"> Logradouro: </label>
 						<input type="text" name="trua" class="ip" id="clog" placeholder="rua,avenida,"></p>
 	
@@ -90,17 +137,22 @@
 
 					<P><label for="cCidade">Cidade:</label>
 						<input type="text" class="ip" name="tCidade" id="cCidade" maxlength="40" size="7" placeholder="Cidade"></P>
+					</div>
 			</fieldset>
 
 
-			<fieldset id="Mensagem"><legend>Mensagem do usuário</legend>
+			<fieldset id="Mensagem">
+				<div class="fieldset1">
+				<legend>Mensagem do usuário</legend>
 					<p><label for="cMsg">Mensagem:</label>
 						<textarea name="tmsg" cols="45" rows="5" id="cMsg" placeholder="Deixe aqui sua mensagem"></textarea></p>
+					</div>
 			</fieldset>
 
-						<input type="image" name="tEnviar" id="image" src="C:\Users\Lemuel\Desktop\_imagens\btenviar.png">
+						<input type="image" name="tEnviar" id="image" src="C:\Users\Lemuel\Desktop\atividades\lemuel-bitencourt-RA-HTML\btenviar.png">
 
 		</form>
+	</main>
 	</div>
 </body>
 </html>

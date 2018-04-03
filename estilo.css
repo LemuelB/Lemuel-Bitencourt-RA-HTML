@@ -1,11 +1,13 @@
 
-body {
+.formulario {
 	background-color:#b6d8e3;
 }
 
 form{
-	width: 500pt;
+	width: 100%;
 	margin:auto;
+	margin-left:200px;
+
 }
 
 .ip{
@@ -19,8 +21,9 @@ form{
     width:150px;
     background: rgb(255, 255, 255, .5);
 
+
 }
-input#image{
+#image{
 	background-color: #b6d8e3;
    
 }
@@ -34,13 +37,14 @@ legend{
 
 }
 
-
-
-fieldset{
+.fieldset1{
 	border-radius: 25px;
 	border: 3px solid #306eb0;
 	text-align:center;
 }
+
+
+
 
 p{
 	text-align: left;
@@ -76,16 +80,25 @@ fieldset#Mensagem{
 #figure-legend{
 	background-color:#0076a3;
 }
-
-
+main{
+	float: left;
+  width: 60%;
 }
-.figure img{
-width: auto;
-height:auto;
+
+
+#figure{
+max-width: 100%;
+height: auto;
 border:10px solid black;
 cursor:pointer;
 border-radius:20px;
+margin:50px;
+margin-right: 50px;
+margin-left: 220px;
+background-size: contain;
+display:inline-block;
 }
+
 
 body#pg1{
 	background-color:#C0C0C0;
