@@ -7,8 +7,8 @@ form{
 	width: 100%;
 	margin:auto;
 	margin-left:200px;
-
 }
+
 
 .ip{
 	font-family:sans-serif;
@@ -16,7 +16,6 @@ form{
 	font-style:italic;
 	 border-radius:4px;
     box-shadow: 1px 1px 2px #333333;    
-    background: #cccccc; 
     border:1px solid #000000;
     width:150px;
     background: rgb(255, 255, 255, .5);
@@ -27,6 +26,8 @@ form{
 	background-color: #b6d8e3;
    
 }
+
+
 
 legend{
 	color:#000000;
@@ -41,21 +42,25 @@ legend{
 	border-radius: 25px;
 	border: 3px solid #306eb0;
 	text-align:center;
+
 }
 
 
 
 
 p{
-	text-align: left;
+
+	text-align: center;
 	font-family: verdana;	
+	font-weight: bold;
 }
+
 
 fieldset#Ficha{
 	background-image:url(http://www.plantagarden.com.br/uploads/widget/image/347/882/34788276/contato.png);
 }
 fieldset#Identificaçao{
-	background:url(http://www.vereadorpaulocamara.com.br/wp-content/uploads/2013/07/cart%C3%A3o-da-identifica%C3%A7%C3%A3o-tag-conhecido-do-vetor-12852029.jpg) no-repeat 90% 100%;
+	background:url(http://www.vereadorpaulocamara.com.br/wp-content/uploads/2013/07/cart%C3%A3o-da-identifica%C3%A7%C3%A3o-tag-conhecido-do-vetor-12852029.jpg) no-repeat 50% 20%;
 }
 
 
@@ -66,7 +71,7 @@ fieldset#Sexo{
 }
 
 fieldset#Contato{
-	background:url(https://yata.ostr.locaweb.com.br/e8d19e176cd0555127a4c0acad26b9c2c8f49f92ba32da2d4a7d02a08e7ace6f)no-repeat; 
+	background:url(https://yata.ostr.locaweb.com.br/e8d19e176cd0555127a4c0acad26b9c2c8f49f92ba32da2d4a7d02a08e7ace6f)no-repeat 50% 5%; 
 }
 
 fieldset#Endereço{
@@ -151,4 +156,3 @@ td, th {
 	font-family:verdana;
 	font-weight:bold;
 }
-
